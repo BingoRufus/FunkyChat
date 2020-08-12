@@ -1,0 +1,29 @@
+name: FunkyChat
+author: BingoRufus
+main: me.BingoRufus.FunkyChat.FunkyChat
+version: 1.0
+api-version: 1.13
+description: Useless chat stuff
+commands: 
+  funkychat:
+    usage: /<command>
+    description: All FunkyChat commands
+    aliases: fc
+permissions:
+  funkychat.*:
+    description: All FunkyChat perms
+    children:
+      funkychat.self.*:
+        description: All perms to edit your own FunkyChat settings
+        children:
+          funkychat.self.reverse:
+            description: Toggle reverse
+          funkychat.self.upsidedown:
+            description: Toggle reverse
+      funkychat.other.*:
+        description: All perms to edit other's FunkyChat settings
+        children:
+          funkychat.other.reverse:
+            description: Toggle reverse for others
+          funkychat.other.upsidedown: 
+            descrption: Toggle upsidedown for others
