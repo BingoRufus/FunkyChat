@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat.Listeners;
+package me.bingorufus.funkychat.listeners;
 
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
@@ -6,9 +6,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 
-import me.BingoRufus.FunkyChat.FunkyChat;
-import me.BingoRufus.FunkyChat.Settings;
-import me.BingoRufus.FunkyChat.utils.ItemStackJson;
+import me.bingorufus.funkychat.FunkyChat;
+import me.bingorufus.funkychat.Settings;
+import me.bingorufus.funkychat.utils.ItemStackJson;
 import net.md_5.bungee.api.ChatColor;
 
 public class InventoryClick implements Listener {

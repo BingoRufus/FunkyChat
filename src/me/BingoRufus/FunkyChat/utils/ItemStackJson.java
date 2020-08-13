@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat.utils;
+package me.bingorufus.funkychat.utils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

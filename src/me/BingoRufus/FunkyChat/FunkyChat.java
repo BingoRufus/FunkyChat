@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat;
+package me.bingorufus.funkychat;
 
 import java.util.HashMap;
 import java.util.UUID;
@@ -9,10 +9,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.BingoRufus.FunkyChat.Listeners.CommandGui;
-import me.BingoRufus.FunkyChat.Listeners.ListenerRegister;
-import me.BingoRufus.FunkyChat.utils.DataManager;
-import me.BingoRufus.FunkyChat.utils.Metrics;
+import me.bingorufus.funkychat.listeners.CommandGui;
+import me.bingorufus.funkychat.listeners.ListenerRegister;
+import me.bingorufus.funkychat.utils.DataManager;
+import me.bingorufus.funkychat.utils.Metrics;
 
 public class FunkyChat extends JavaPlugin {
 	public HashMap<Player, Inventory> settingInventory = new HashMap<>();

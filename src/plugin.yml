@@ -1,6 +1,6 @@
 name: FunkyChat
 author: BingoRufus
-main: me.BingoRufus.FunkyChat.FunkyChat
+main: me.bingorufus.funkychat.FunkyChat
 version: 1.0
 api-version: 1.13
 description: Useless chat stuff

@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat.Listeners;
+package me.bingorufus.funkychat.listeners;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.bukkit.event.HandlerList;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginManager;
 
-import me.BingoRufus.FunkyChat.FunkyChat;
+import me.bingorufus.funkychat.FunkyChat;
 
 public class ListenerRegister {
 	private List<Listener> listeners = new ArrayList<Listener>();

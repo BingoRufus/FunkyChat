@@ -1,12 +1,12 @@
-package me.BingoRufus.FunkyChat.Listeners;
+package me.bingorufus.funkychat.listeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
-import me.BingoRufus.FunkyChat.FunkyChat;
-import me.BingoRufus.FunkyChat.Settings;
+import me.bingorufus.funkychat.FunkyChat;
+import me.bingorufus.funkychat.Settings;
 
 public class UpsideDownListener implements Listener {
 	FunkyChat m;

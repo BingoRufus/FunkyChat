@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat.Listeners;
+package me.bingorufus.funkychat.listeners;
 
 import java.util.Arrays;
 
@@ -12,9 +12,9 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
 
-import me.BingoRufus.FunkyChat.FunkyChat;
-import me.BingoRufus.FunkyChat.Settings;
-import me.BingoRufus.FunkyChat.utils.ItemStackJson;
+import me.bingorufus.funkychat.FunkyChat;
+import me.bingorufus.funkychat.Settings;
+import me.bingorufus.funkychat.utils.ItemStackJson;
 import net.md_5.bungee.api.ChatColor;
 
 public class CommandGui implements CommandExecutor {

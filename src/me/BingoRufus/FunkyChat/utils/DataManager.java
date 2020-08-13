@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat.utils;
+package me.bingorufus.funkychat.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.logging.Level;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import me.BingoRufus.FunkyChat.FunkyChat;
+import me.bingorufus.funkychat.FunkyChat;
 
 public class DataManager { // DataManager Class taken from CodedRed. https://youtu.be/-ZrIjYXOkn0
 

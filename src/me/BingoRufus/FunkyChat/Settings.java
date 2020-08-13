@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat;
+package me.bingorufus.funkychat;
 
 public class Settings {
 

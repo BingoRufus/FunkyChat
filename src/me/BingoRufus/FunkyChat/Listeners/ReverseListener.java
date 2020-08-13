@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat.Listeners;
+package me.bingorufus.funkychat.listeners;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -11,8 +11,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
-import me.BingoRufus.FunkyChat.FunkyChat;
-import me.BingoRufus.FunkyChat.Settings;
+import me.bingorufus.funkychat.FunkyChat;
+import me.bingorufus.funkychat.Settings;
 
 public class ReverseListener implements Listener {
 	Pattern color = Pattern.compile("((§[1-9a-fnklor])((§[1-9a-fnklor])*))");

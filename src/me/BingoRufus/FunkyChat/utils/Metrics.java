@@ -1,4 +1,4 @@
-package me.BingoRufus.FunkyChat.utils;
+package me.bingorufus.funkychat.utils;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
